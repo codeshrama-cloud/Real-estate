@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find your perfect home with Luxryliving. Explore various property types and listings.">
     <title>Real Estate Website</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet"/>
@@ -11,8 +12,11 @@
     <section class="background" id="home">
         <nav class="navbar">
             <div class="logo">
-                <img src="realestate.png" alt="Luxryliving Logo">
+                <img src="images/realestate.png" alt="Luxryliving Logo">
                 <span>Luxryliving</span>
+            </div>
+            <div class="nav_menu" id="menu_btn">
+                <i class="ri-menu-line"></i>
             </div>
             <ul class="nav-items" id="nav_links">
                 <li><a href="#home">HOME</a></li>
@@ -21,24 +25,246 @@
                 <li><a href="#contact">CONTACT</a></li>
                 <li class="btn"><a href="#">GET DETAIL</a></li>
             </ul>
-            <div class="nav_menu" id="menu_btn">
-                <i class="ri-menu-line"></i>
-            </div>
         </nav>
     </section>
-    <section class="main">  
+
+    <section class="main">
         <div class="left">
             <h1 class="heading">Find a <span>perfect </span>home to live with your family</h1>
-            <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi 
-                dolor sit, amet consectetur adipisicing elit.
-            </p>
-            <button class="btn btn-1">View more</button>
+            <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dolor sit, amet consectetur adipisicing elit.</p>
+            <button class="btn btn1">View more</button>
         </div>
         <div class="right">
-            <img src="property-1.jpg" alt="Beautiful property">
+            <img src="images/property-1.jpg" alt="Beautiful property in a scenic location">
         </div>
     </section>
 
+    <section class="row">
+        <div class="row_box">
+            <input type="text" name="keyword" placeholder="search keyword">
+            <select name="type" id="property-type">
+                <option value="property-type">property type</option>
+                <option value="property-type1">property type1</option>
+                <option value="property-type2">property type2</option>
+            </select>
+            <select name="location" id="location">
+                <option value="location">location</option>
+                <option value="location1">location1</option>
+                <option value="location2">location2</option>
+            </select>
+            <button class="btn btn2">Search</button>
+        </div>
+    </section>
+
+    <section class="sec" id="services">
+        <div class="head">
+            <h1 class="heading">Property types</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum rerum illum, dolorum qui non sghajxhbnka xjHBAnkkalhkwjhdzlhunlbkfikjbnjkfbmnb,.mnjkb,m.,mbf</p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="main-box">
+                    <i class="ri-community-line"></i>
+                    <h1>Apartment</h1>
+                    <h2>450 property</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="main-box">
+                    <i class="ri-home-office-line"></i>
+                    <h1>Office</h1>
+                    <h2>218 property</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="main-box">
+                    <i class="ri-building-4-line"></i>
+                    <h1>Building</h1>
+                    <h2>182 property</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="main-box">
+                    <i class="ri-building-line"></i>
+                    <h1>Villa</h1>
+                    <h2>124 property</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="main-box">
+                    <i class="ri-building-3-line"></i>
+                    <h1>Shop</h1>
+                    <h2>205 property</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="main-box">
+                    <i class="ri-building-2-line"></i>
+                    <h1>Garage</h1>
+                    <h2>290 property</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="main-box">
+                    <i class="ri-bank-line"></i>
+                    <h1>Bank</h1>
+                    <h2>145 property</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="main-box">
+                    <i class="ri-school-line"></i>
+                    <h1>Town</h1>
+                    <h2>246 property</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="box-1">
+        <div class="left-box">
+            <img src="images/property-2.jpg" alt="">
+        </div>
+        <div class="right-box">
+            <h1 class="heading1">#1 Place to find your dream home</h1>
+            <p class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius delectus totam consequuntur. Sapiente consectetur adipisicing elit. Eius delectus totam consequuntur.
+            </p>
+            <ul>
+                <li><i class="ri-check-line"></i>elit. Eius delectus totam</li>
+                <li><i class="ri-check-line"></i> consectetur adipisicing elit</li>
+                <li><i class="ri-check-line"></i>elit. Eius delectus</li>
+            </ul>
+            <button class="btn btn-2">Learn more</button>
+        </div>
+    </section>
+
+    <!-- Property Listing Section -->
+    <section class="sec" id="listing">
+        <div class="head-1">
+            <div class="left-head">
+                <h1 class="heading-1">Property listing</h1>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, incidunt officiis? Recusandae tempora atque necessitatibus nemo in aut delectus</p>
+            </div>
+            <div class="right-head">
+                <ul>
+                    <li class="btn">featured</li>
+                    <li class="btn btn3">for sell</li>
+                    <li class="btn btn4">for rent</li>
+                </ul>
+            </div>
+        </div>
+        <div class="boxes list-boxes">
+            <div class="list-box">
+                <img src="images/property-3.jpg" alt="">
+                <div class="list-text">
+                    <h2>₹1,500,000</h2>
+                    <h1>Semi furnished house for sale</h1>
+                    <p class="para1"><i class="ri-map-pin-2-fill"></i>18, Dashmesh Nagar, Jalandhar</p>
+                </div>
+            </div>
+            <div class="list-box">
+                <img src="images/property-4.jpg" alt="">
+                <div class="list-text">
+                    <h2>₹1,800,000</h2>
+                    <h1>Semi furnished house for sale</h1>
+                    <p class="para1"><i class="ri-map-pin-2-fill"></i>106, Gobind Nagar, Jalandhar</p>
+                </div>
+            </div>
+            <div class="list-box">
+                <img src="images/property-5.jpg" alt="">
+                <div class="list-text">
+                    <h2>₹2,000,000</h2>
+                    <h1>Semi furnished house for sale</h1>
+                    <p class="para1"><i class="ri-map-pin-2-fill"></i>510, Aman Nagar, Jalandhar</p>
+                </div>
+            </div>
+            <div class="list-box">
+                <img src="images/property-6.jpg" alt="">
+                <div class="list-text">
+                    <h2>₹2,200,000</h2>
+                    <h1>Semi furnished house for sale</h1>
+                    <p class="para1"><i class="ri-map-pin-2-fill"></i>28A, Preet Nagar, Jalandhar</p>
+                </div>
+            </div>
+            <div class="list-box">
+                <img src="images/property-7.jpg" alt="">
+                <div class="list-text">
+                    <h2>₹2,500,000</h2>
+                    <h1>Semi furnished house for sale</h1>
+                    <p class="para1"><i class="ri-map-pin-2-fill"></i>95C, Arjun Nagar, Jalandhar</p>
+                </div>
+            </div>
+            <div class="list-box">
+                <img src="images/property-8.jpg" alt="">
+                <div class="list-text">
+                    <h2>₹2,800,000</h2>
+                    <h1>Semi furnished house for sale</h1>
+                    <p class="para1"><i class="ri-map-pin-2-fill"></i>37, Bhagat Singh Colony, Jalandhar</p>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-more">More Properties</button> <!-- More Properties button -->
+    </section>
+
+    <!-- Contact Agent Section -->
+    <section class="box row-1">
+        <div class="box-1 contact-box">
+            <div class="left-contact">
+                <img src="images/agent.jpg" alt="">
+            </div>
+            <div class="right-box">
+                <h1 class="heading2">Contact with our Certified agents</h1>
+                <p class="paraa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum expe non obcaecati labore praesentium inventore rerum.</p>
+                <button class="btn">Call Now</button>
+                <button class="btn btn0">Get Appointment</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="sec footer">
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Support center</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Menu</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact us</h4>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="ri-mail-fill"></i>Harddik78@gmail.com</a></li>
+                    <li><a href="#"><i class="ri-map-pin-line"></i>GT ROAD JALANDHAR, PUNJAB</a></li>
+                    <li><a href="#"><i class="ri-phone-line-fill"></i>+987249635047</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Harddik</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>  
+        </div>
+        <div class="footerbar">
+            <p>Copyright @2024 Luxryliving. All rights reserved</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
